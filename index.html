@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:ital,wght@0,200;0,300;1,400&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section>
+    
+    <div class="container">
+      
+      <h4>WELCOME TO WasteSmart Hub<br><b>Contact Us</b> for sharing your reviews & issues you are facing.<br><img src="contact.png" class="p"><br><br></h4>
+      <form action="https://formspree.io/f/mnqybjpy" method="POST" id="my-form">
+  
+        <div class="form-group">
+          <label for="firstName"> Name</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="massage">Message</label>
+          <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+        </div>
+  
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="status"></div>
+  </section>  
+</body>
+</html>
